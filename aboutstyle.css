@@ -1,0 +1,60 @@
+/* background gradient again */
+body{
+    background: hsla(69, 61%, 47%, 1);
+    background: linear-gradient(45deg, hsla(69, 61%, 47%, 1) 0%, hsla(136, 13%, 71%, 1) 50%, hsla(190, 53%, 56%, 1) 85%);
+    background: -moz-linear-gradient(45deg, hsla(69, 61%, 47%, 1) 0%, hsla(136, 13%, 71%, 1) 50%, hsla(190, 53%, 56%, 1) 85%);
+    background: -webkit-linear-gradient(45deg, #abc12f 0%, hsla(136, 13%, 71%, 1) 50%, hsla(190, 53%, 56%, 1) 85%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ABC12F", endColorstr="#ACBFB1", GradientType=1 );
+}
+/* "about me" text */
+h3{
+    font-family:'DejaVu Sans Mono', sans-serif;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+    font-size: 150px;
+}
+h1{
+    font-family:'DejaVu Sans Mono', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* i forgor whats this scripts for but i wont delete this */
+.buttonback1{
+    background: rgb(91, 91, 91);
+    font-family:'DejaVu Sans Mono', sans-serif;
+    color: black;
+    height: 40px;
+    width: 70px;
+}
+/* ugly decorations removing */
+a{
+    text-decoration: none;
+}
+/* buttons... */
+.button3{
+    background: rgb(91, 91, 91);
+    font-family:'DejaVu Sans Mono', sans-serif;
+    color: black;
+  }
+  .button4{
+    background: rgb(91, 91, 91);
+    font-family:'DejaVu Sans Mono', sans-serif;
+    color: black;
+  }
+  /* making hover again */
+  .button3:hover{
+    background-color: rgb(124, 124, 124);
+    color: rgb(39, 25, 25);
+  }
+  .button4:hover{
+    background-color: rgb(124, 124, 124);
+    color: rgb(39, 25, 25);
+  }
+  /* div button holder again */
+  .divholder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* these are just perfect scripts */

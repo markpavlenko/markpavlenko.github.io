@@ -1,0 +1,47 @@
+/* here goes my background gradient... */
+body{
+  background: hsla(331, 60%, 84%, 1);
+  background: linear-gradient(90deg, hsla(331, 60%, 84%, 1) 14%, hsla(208, 90%, 88%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(331, 60%, 84%, 1) 14%, hsla(208, 90%, 88%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(331, 60%, 84%, 1) 14%, hsla(208, 90%, 88%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EEBCD4", endColorstr="#C3E1FC", GradientType=1 );
+}
+/* making pretty text */
+.text1{
+  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-size: 210px;
+}
+.text2{
+  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-size: 100px;
+}
+/* removing those ugly underline decorations */
+a{
+  text-decoration: none;
+}
+/* buttons */
+.button1{
+  background: rgb(91, 91, 91);
+  font-family:'DejaVu Sans Mono', sans-serif;
+  color: black;
+}
+.button2{
+  background: rgb(91, 91, 91);
+  font-family:'DejaVu Sans Mono', sans-serif;
+  color: black;
+}
+/* making pretty hover for my buttons */
+.button1:hover{
+  background-color: rgb(124, 124, 124);
+  color: rgb(39, 25, 25);
+}
+.button2:hover{
+  background-color: rgb(124, 124, 124);
+  color: rgb(39, 25, 25);
+}
+/* div button holder */
+.divholder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

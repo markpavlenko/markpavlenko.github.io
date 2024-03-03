@@ -1,0 +1,39 @@
+
+.myprojectsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 20px;
+}
+h1{
+    font-family: 'DejaVu Sans Mono', sans-serif;
+}
+a{
+    text-decoration: none;
+  }
+  /* buttons */
+  .button1{
+    background: rgb(91, 91, 91);
+    font-family:'DejaVu Sans Mono', sans-serif;
+    color: black;
+  }
+  .button2{
+    background: rgb(91, 91, 91);
+    font-family:'DejaVu Sans Mono', sans-serif;
+    color: black;
+  }
+  /* making pretty hover for my buttons */
+  .button1:hover{
+    background-color: rgb(124, 124, 124);
+    color: rgb(39, 25, 25);
+  }
+  .button2:hover{
+    background-color: rgb(124, 124, 124);
+    color: rgb(39, 25, 25);
+  }
+  /* div button holder */
+  .divholder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
