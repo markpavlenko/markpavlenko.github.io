@@ -155,6 +155,7 @@ body {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
               0 6px 20px rgba(0, 0, 0, 0.15);
   z-index: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .glass:before {
@@ -162,13 +163,17 @@ body {
   justify-content: center;
   content: '';
   position: absolute;
-  background: inherit;
+  background: rgba(255, 255, 255, 0.2 );
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: -20px;
-  box-shadow: inset 0 0 500px rgba(255, 255, 255, 0.45); 
-  filter: blur(20px);
+  box-shadow: inset 0 0 500px rgba(141, 141, 141, 0.367); 
+  filter: blur(50px);
   z-index: -1;
 }
+.glass:hover{
+background: rgba(212, 246, 255, 0.589);
+}
+
