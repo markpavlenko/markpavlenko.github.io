@@ -176,4 +176,8 @@ body {
 .glass:hover{
 background: rgba(212, 246, 255, 0.589);
 }
-
+.googletranslate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
