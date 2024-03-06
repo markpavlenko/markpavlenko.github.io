@@ -31,9 +31,6 @@ myprojectsstyle.css
 
 Myprojectsstyle.css is connected to myprojects.html ("MY PROJECTS" page) to make it look beautiful.
 
-Google Translate API
-
-I use Google Translate API for translating the page for someone that doesn't understand English. 
 
 If you find any bugs please inform me in GitHub.
 
