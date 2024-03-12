@@ -26,6 +26,7 @@ h1{
     color: black;
     height: 40px;
     width: 70px;
+    border-radius: 6px;
 }
 /* ugly decorations removing */
 a{
@@ -38,6 +39,7 @@ a{
     color: black;
     transition: all 0.7s ease-in-out;
     border: 0.1px solid black;
+    border-radius: 6px;
   }
   .button4{
     background: rgb(91, 91, 91);
@@ -45,6 +47,7 @@ a{
     color: black;
     transition: all 0.7s ease-in-out;
     border: 0.1px solid black;
+    border-radius: 6px;
   }
   /* making hover again */
   .button3:hover{
