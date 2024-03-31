@@ -48,4 +48,7 @@ Myprojectsukr.html is a file for "MY PROJECTS" page but in guess what language? 
 
 If you find any bugs please inform me in GitHub.
 
+So, i think you already understood that i'm a kid that can code, got GitHub (please don't flag me!), and git his own website about me.
+updates sooooon...
+
 MIT License MarkDev Ⓒ 2024 Copyright
