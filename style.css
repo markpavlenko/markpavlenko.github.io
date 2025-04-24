@@ -1,9 +1,9 @@
 /* here goes my background gradient... */
 body{
-  background: hsla(331, 60%, 84%, 1);
-  background: linear-gradient(90deg, hsla(331, 60%, 84%, 1) 14%, hsla(208, 90%, 88%, 1) 100%);
+  background: rgb(158, 220, 165);
+  background: linear-gradient(90deg, rgb(180, 247, 99) 14%, rgb(221, 159, 159) 100%);
   background: -moz-linear-gradient(90deg, hsla(331, 60%, 84%, 1) 14%, hsla(208, 90%, 88%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(331, 60%, 84%, 1) 14%, hsla(208, 90%, 88%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 14%, hsla(208, 90%, 88%, 1) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EEBCD4", endColorstr="#C3E1FC", GradientType=1 );
 }
 /* making pretty text */
@@ -20,14 +20,6 @@ a{
   text-decoration: none;
 }
 /* buttons */
-.button1{
-  background: rgb(91, 91, 91);
-  font-family:'DejaVu Sans Mono', sans-serif;
-  color: black;
-  transition: all 0.7s ease-in-out;
-  border: 0.1px solid black;
-  border-radius: 6px;
-}
 .button2{
   background: rgb(91, 91, 91);
   font-family:'DejaVu Sans Mono', sans-serif;
@@ -37,14 +29,6 @@ a{
   border-radius: 6px;
 }
 .switch{
-  background: rgb(91, 91, 91);
-  font-family:'DejaVu Sans Mono', sans-serif;
-  color: black;
-  transition: all 0.7s ease-in-out;
-  border: 0.1px solid black;
-  border-radius: 6px;
-}
-.buttonukr1{
   background: rgb(91, 91, 91);
   font-family:'DejaVu Sans Mono', sans-serif;
   color: black;
